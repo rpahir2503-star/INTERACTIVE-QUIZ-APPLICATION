@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Application | Lecture 10</title>
+    <meta name="description" content="Interactive Quiz Application developed in Lecture 10 by Rohit Ahir.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Computer Science & AI Quiz</h1>
+    <main id="quiz">
+        <div id="quiz-header">
+            <span id="quiz-progress">Question 1 of 5</span>
+            <span id="quiz-score">Score: 0</span>
+        </div>
+        <p id="question">Loading question...</p>
+        <div id="options"></div>
+        <div id="result" role="status" aria-live="polite"></div>
+        <div id="quiz-actions" style="display: none; text-align: center; margin-top: 1.5rem;">
+            <button id="restart-btn" type="button">Restart Quiz</button>
+        </div>
+    </main>
+
+    <footer style="margin-top: 2rem; color: var(--muted); font-size: 0.9rem; text-align: center;">
+        <p>Developed for Lecture 10 Assessment &bull; <a href="https://github.com/rpahir2503-star" style="color: var(--gold-bright); text-decoration: none;">Rohit Ahir</a> &bull; Enrolment No: 25BCON1143</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
