@@ -4,7 +4,9 @@ An interactive, responsive Computer Science & AI quiz web application developed 
 
 ## Live Application
 - **GitHub**: [https://github.com/rpahir2503-star](https://github.com/rpahir2503-star)
-
+- **live Deployed Portfolio (vercel):https://quiz-delta-ruby-57.vercel.app/
+- **live Deployed Portfolio(Github Pages):https://github.com/rpahir2503-star/INTERACTIVE-QUIZ-APPLICATION/edit/main/README.md
+  
 ## Project Overview
 This project presents an interactive quiz testing core knowledge in modern software engineering, Large Language Models, code version control, testing strategies, and algorithmic complexity.
 
